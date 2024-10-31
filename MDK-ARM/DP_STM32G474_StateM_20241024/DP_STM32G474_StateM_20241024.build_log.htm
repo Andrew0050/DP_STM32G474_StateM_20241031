@@ -21,7 +21,7 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
 Dialog DLL:      TCM.DLL V1.36.1.0
  
 <h2>Project:</h2>
-C:\00_Git\26_DP_STM32G474_HRTIM_4PWM_170M_adj_ADC_20241030\MDK-ARM\DP_STM32G474_StateM_20241024.uvprojx
+C:\00_Git\DP_STM32G474_StateM_20241031\MDK-ARM\DP_STM32G474_StateM_20241024.uvprojx
 Project File Date:  10/29/2024
 
 <h2>Output:</h2>
@@ -30,14 +30,14 @@ Rebuild target 'DP_STM32G474_StateM_20241024'
 assembling startup_stm32g474xx.s...
 compiling CtlLoop.c...
 compiling function.c...
-..\Core\Src\function.c(1513): warning:  #223-D: function "sprintf" declared implicitly
-                sprintf(freqStr, "%.2f", currentPWMFreq / 1000.0f); // 例如 "100.00KHz"
-..\Core\Src\function.c(1518): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-                OLED_ShowStr(45, 2, freqStr, 2); // 在 (45,2) 位置顯示當前頻率
-..\Core\Src\function.c(1560): warning:  #223-D: function "sprintf" declared implicitly
+..\Core\Src\function.c(616): warning:  #223-D: function "sprintf" declared implicitly
+                sprintf(freqStr, "%.2f", currentPWMFreq / 1000.0f); // e.g., "100.00KHz"
+..\Core\Src\function.c(621): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+                OLED_ShowStr(45, 2, freqStr, 2); // Display current frequency at (45,2)
+..\Core\Src\function.c(663): warning:  #223-D: function "sprintf" declared implicitly
                 sprintf(freqStr, "%.2f", currentPWMFreq / 1000.0f);
-..\Core\Src\function.c(1562): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-                OLED_ShowStr(45, 2, freqStr, 2); // 顯示當前頻率
+..\Core\Src\function.c(665): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+                OLED_ShowStr(45, 2, freqStr, 2); // Display current frequency
 ..\Core\Src\function.c: 4 warnings, 0 errors
 compiling oled.c...
 compiling main.c...
@@ -75,7 +75,7 @@ compiling stm32g4xx_hal_uart.c...
 compiling stm32g4xx_hal_uart_ex.c...
 compiling system_stm32g4xx.c...
 linking...
-Program Size: Code=25856 RO-data=2816 RW-data=160 ZI-data=2616  
+Program Size: Code=25856 RO-data=2816 RW-data=100 ZI-data=2620  
 FromELF: creating hex file...
 "DP_STM32G474_StateM_20241024\DP_STM32G474_StateM_20241024.axf" - 0 Error(s), 4 Warning(s).
 
@@ -101,7 +101,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.6.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:21
+Build Time Elapsed:  00:00:25
 </pre>
 </body>
 </html>
