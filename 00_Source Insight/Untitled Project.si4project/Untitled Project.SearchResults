@@ -1,0 +1,6 @@
+---- MX_OLED_Init Matches (5 in 3 files) ----
+function.c (C:\00_Git\26_DP_STM32G474_HRTIM_4PWM_170M_adj_ADC_20241030\Core\Src) line 1508 : **     Function Name : void MX_OLED_Init(void)
+function.c (C:\00_Git\26_DP_STM32G474_HRTIM_4PWM_170M_adj_ADC_20241030\Core\Src) line 1546 : **     Function Name : void MX_OLED_Init(void)
+function.c (C:\00_Git\26_DP_STM32G474_HRTIM_4PWM_170M_adj_ADC_20241030\Core\Src) line 1552 : void MX_OLED_Init(void)
+function.h (C:\00_Git\26_DP_STM32G474_HRTIM_4PWM_170M_adj_ADC_20241030\Core\Inc) line 34 : void MX_OLED_Init(void);
+main in main.c (C:\00_Git\26_DP_STM32G474_HRTIM_4PWM_170M_adj_ADC_20241030\Core\Src) : 	MX_OLED_Init(); // Initialize OLED display
